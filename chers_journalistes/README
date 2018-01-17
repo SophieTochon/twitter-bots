@@ -1,0 +1,11 @@
+Hello !
+
+Tu as trois bots dans ce dossier : 
+
+- like_a_hashtag : un bot tout simple qui permet d’aller liker les tweets qui contiennent une chaîne de caractères particulières, ici les 10 derniers tweets qui contiennent le hashtag « #thehackingproject »
+
+- tweet_to_list : un bot pour aller embêter des gens en tweetant un tweet défini sur leur profil
+
+- like_sbs_tweet : un bot qui permet d’aller liker chaque tweet de chaque utilisateur inclus dans le tableau « journalists », ici, les trois derniers tweets postés par @Aziliz31 et @ssoumier
+
+Tu n’as plus qu’à mettre tes clés pour les tester. Have fun ! 
