@@ -12,6 +12,8 @@ require 'Twitter'
 journalists = ["@Aziliz31","@ssoumier"]
 
 journalists.each do |individual|
+    individual.delete!'@'
+    
 	rClient.user_timeline(individual).take(3).collect do |tweet|
 		if tweet.is_a?(Twitter::Tweet)
 			rClient.fav tweet
